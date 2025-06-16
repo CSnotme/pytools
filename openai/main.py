@@ -8,7 +8,7 @@ def main():
 
 
 def req_deepseek():
-    api_key = "sk-eef29b7f1b07462b8bf9d3d9c3d3a184"
+    api_key = "xxx"
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
     response = client.chat.completions.create(
